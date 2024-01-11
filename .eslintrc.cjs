@@ -14,8 +14,10 @@ module.exports = {
   rules: {
     "no-undef": "off",
     "no-unused-vars": "off",
+    "react/prop-types": "off",
     "react-refresh/only-export-components": [
       "warn",
+      { allowExportNames: ["meta", "links", "headers", "loader", "action"] },
       { allowConstantExport: true },
     ],
   },
