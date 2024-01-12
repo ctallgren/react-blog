@@ -48,6 +48,7 @@ export class Service {
         slug,
         {
           title,
+          slug,
           content,
           featuredImage,
           status,
